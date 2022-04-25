@@ -7,7 +7,7 @@ NEAT: http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf
 The goal was to have the AI learn to play blackjack like this https://www.blackjack-chart.com/dealer-stands-on-soft-17/ with as little influence valuing hands from me
 
 The neural network has 3 inputs and 2 outputs
--Player hand value(4 - 20)
+-Player hand value(4 - 20)\n
 -Player soft ace present(0 or 1)
 -Dealer value(2-11)
 -Double decision(double or continue to next option)
