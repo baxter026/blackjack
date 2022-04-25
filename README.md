@@ -17,6 +17,7 @@ The goal was to have the AI learn to play blackjack [in the most optimal way](ht
 
 - Bet size output and wallet input has not been added. Also posibly a streak input to go along with this to see if bets would be increase/decreased during a winning/losing streak
 - Split decision has not been added although the players hand is already kept in an array and the hand in played in a for loop that only runs once. Would be easy to add  
+- Threading
 
 #### Issues
 The outputs seem to follow a "linear" trajectory. The NN tends to either disregard to dealer value or not value it strong enough. 
