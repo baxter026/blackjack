@@ -56,15 +56,27 @@ public class Species {
 
     void cullToPortion(float portion){
 
-        int remaining = (int)Math.ceil(members.size()*portion);
+        if (members.size() <= 1)
+        {
+            return;
+        }
 
+        int remaining = (int)Math.ceil(members.size() * portion);
+
+        while(members.size() > remaining){
+            members.remove(members.size()-1);
+        }
+        
     }
 
     void cullToOne(){
 
+        if (members.size() <= 1){
+            return;
+        }
+
         while (members.size() > 1){
             members.remove(1);
-
         }
 
     }
